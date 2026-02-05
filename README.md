@@ -1,20 +1,50 @@
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# NEURO-REAPERS
+
+> "Dijital ruhlar siliniyor. Arşivi geri al. Antikor protokolünü çalıştır."
+
 </div>
 
-# Run and deploy your AI Studio app
+## 🎮 Proje Hakkında
 
-This contains everything you need to run your app locally.
+**NEURO-REAPERS**, insanlık hafızasının son kalesini savunan bir antikor olarak görev yaptığınız, siberpunk temalı bir oyundur. **AvP Games Lab** tarafından geliştirilen bu projede, sistem bütünlüğünü korumak, veri kaybını önlemek ve kök virüsleri yok etmek için mücadele edersiniz.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1pItRjvxIorypksnG0juc5ii585u5dUtx
+### Özellikler
 
-## Run Locally
+*   **Siberpunk Atmosfer:** Etkileyici görsel efektler ve ses tasarımı.
+*   **Antikor Protokolü:** Virüs ihlallerine karşı sistemi savunun.
+*   **Çekirdek Yönetimi:** Sistem stabilitesini ve çekirdek bütünlüğünü koruyun.
+*   **Çoklu Dil Desteği:** Türkçe ve İngilizce dil seçenekleri.
 
-**Prerequisites:**  Node.js
+## 🚀 Kurulum ve Çalıştırma
 
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Ön Koşullar
+
+*   Node.js
+
+### Adımlar
+
+1.  **Bağımlılıkları Yükleyin:**
+    ```bash
+    npm install
+    ```
+
+2.  **Çevresel Değişkenleri Ayarlayın:**
+    Proje kök dizininde `.env.local` dosyası oluşturun (veya varsa düzenleyin) ve Gemini API anahtarınızı ekleyin:
+    ```env
+    GEMINI_API_KEY=sizin_api_anahtariniz
+    ```
+
+3.  **Uygulamayı Başlatın:**
+    ```bash
+    npm run dev
+    ```
+
+## 📄 Lisans ve Hakkında
+
+Bu oyun **AvP Games** tarafından hazırlanmıştır. Tüm hakları saklıdır.
+© 2024 AvP Games Lab.
